@@ -1,0 +1,195 @@
+body,
+input,
+button,
+textarea{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 14px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+    border-width: 1px;
+}
+::placeholder {
+    color: #aaa;
+}
+.font1 {
+    font-size: 18px;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.float-right {
+    float: right;
+}
+.overflow-hidden {
+    overflow: hidden;
+}
+.notlast {
+    opacity: 0.3;
+}
+.player1,
+.player2 {
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    white-space: nowrap;
+    padding: 5px 10px;
+}
+.box1 {
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+.item1 {
+    border: 1px solid #ddd;
+    border-left: none;
+    border-right: none;
+    background-color: #fff;
+}
+.border {
+    border: 1px solid #ddd;
+}
+.score,
+.rating {
+    width: 32px;
+    text-align: center;
+}
+.ratinginput {
+    width: 50px;
+}
+.sortbyrating {
+    width: 32px;
+    height:24px;
+    padding: 0px;
+}
+button,
+input {
+    padding: 5px 10px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+    input.score {
+        padding: 5px 0px;
+    }
+textarea {
+    padding: 6px 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    resize: none;
+    overflow: hidden;
+}
+input {
+    width: 100%;
+}
+.name {    
+    padding: 5px 10px;
+}
+.player {
+    background-color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #fafafa;
+    line-height: 20px
+}
+.pad1 {
+    padding: 2px 5px;
+}
+#Tournament {
+    display: flex;
+}
+#Playerlist,
+#Registration,
+.tournament {
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    display: flex;
+    gap: 5px;
+    flex-flow: column;
+    padding: 5px;
+    width: 300px;
+}
+.playerslist {
+    background-color: #aaa;
+}
+.round {
+    width: auto;
+}
+    .round.selected {
+        font-weight: bold;
+        border-width: 2px;
+    }
+.inc {
+    color: #abd080;
+}
+.dec {
+    color: #edb260;
+}
+.game {
+    padding: 3px 0px;
+}
+.item2 {
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    padding: 5px;
+}
+.sorting {
+    margin-right: 10px;
+}
+.players {
+    display: flex;
+    flex-flow: column;
+    gap: 1px;
+    width: 100px;
+}
+.iblock {
+    display: inline-block;
+}
+.flex-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.align-items-start {
+    align-items: start;
+}
+.justify-space {
+    justify-content: space-between;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.ui-sortable {
+    cursor: pointer;
+}
+.playerinfo {
+    margin-right: 10px;
+}
+    .playerinfo .rating {
+        color: #999;
+    }
+.tournament .playerinfo {
+    width: 90px;
+    justify-content: space-evenly;
+}
+.tournament .playerslist .name {
+    width: 190px;
+}
+.tournamentsize {
+    width: 56px;
+}
+#PlayerRating {
+    width: 70px;
+}

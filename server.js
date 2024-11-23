@@ -5,6 +5,8 @@ const app = express();
 const router = express.Router();
 const port = process.env.PORT || 3000;
 
+app.use(express.static('files'))
+
 // Use middleware to parse incoming requests with JSON and URL-encoded payloads
 app.use(express.json());
 app.use(express.urlencoded());
