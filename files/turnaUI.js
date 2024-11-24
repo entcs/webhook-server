@@ -4,7 +4,9 @@
     '#fff0d3',
     '#f5deff',
     '#FEF6F1',
-    '#9bd0b7'
+    '#9bd0b7',
+    '#fff3f0',
+    '#f0f3ff'
 ]
 var TournaUI = {
     dragging: null,
